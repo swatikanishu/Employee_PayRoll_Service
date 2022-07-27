@@ -10,9 +10,9 @@ public class EmployeePayrollTest {
     public void given3Employees_WhenWrittenToFile_ShouldMatchEmployeeEntries()
     {
         EmployeePayrollData[] arrayOfEmployees = {
-                new EmployeePayrollData(1, "Jeff Bezos", 100000.0),
-                new EmployeePayrollData(2, "Bill Gates", 200000.0),
-                new EmployeePayrollData(3, "Mark Zuckerberg", 300000.0)
+                new EmployeePayrollData(1, "Swatika", 600000 ),
+                new EmployeePayrollData(2, "Meera", 10000000),
+                new EmployeePayrollData(3, "Dipali ", 10000000),
         };
         EmployeePayrollService employeePayrollService;
         employeePayrollService = new EmployeePayrollService(Arrays.asList(arrayOfEmployees));
@@ -20,6 +20,7 @@ public class EmployeePayrollTest {
 
         employeePayrollService.printData(EmployeePayrollService.IOService.FILE_IO);
         long entries = employeePayrollService.countEntries(EmployeePayrollService.IOService.FILE_IO);
+        System.out.println(entries);
         Assertions.assertEquals(3, entries);
 
     }

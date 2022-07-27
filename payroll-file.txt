@@ -1,3 +1,3 @@
-EmployeeID= 1, EmployeeName= Jeff Bezos, EmployeeSalary= 100000.0
-EmployeeID= 2, EmployeeName= Bill Gates, EmployeeSalary= 200000.0
-EmployeeID= 3, EmployeeName= Mark Zuckerberg, EmployeeSalary= 300000.0
+EmployeeID= 1, EmployeeName= Swatika, EmployeeSalary= 600000.0
+EmployeeID= 2, EmployeeName= Meera, EmployeeSalary= 1.0E7
+EmployeeID= 3, EmployeeName= Dipali , EmployeeSalary= 1.0E7
